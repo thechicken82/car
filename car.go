@@ -1,8 +1,6 @@
 package car
 
 import (
-	"fmt"
-
 	"github.com/thechicken82/car_base"
 )
 
@@ -14,6 +12,6 @@ func Honks() string {
 	return "Honks..."
 }
 
-func The_Car_Base() {
-	fmt.Println(car_base.Car_Base())
+func The_Car_Base() string {
+	return car_base.Car_Base()
 }
